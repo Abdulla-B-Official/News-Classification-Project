@@ -1,12 +1,12 @@
 # News Classification System
 
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge)
-![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-TF--IDF_%26_Machine_Learning-F7931E?style=for-the-badge)
-![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458?style=for-the-badge)
-![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-95.6%25-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-TF--IDF_%26_Classifier-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Processing-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github&logoColor=white)
 
 <p align="center">
-  <b>An end-to-end Natural Language Processing (NLP) multi-class news categorization pipeline designed to process raw news text, extract TF-IDF features, train machine learning classifiers, evaluate multi-class performance metrics, and perform real-time predictions.</b>
+  <b>An end-to-end Natural Language Processing (NLP) multi-class news classification pipeline written primarily in Python (95.6%) with optimized C/Cython numerical extensions for feature extraction, machine learning model training, and real-time category inference.</b>
 </p>
 
 ---
@@ -22,9 +22,9 @@
 
 ## Overview
 
-**News Classification System** is an NLP-driven multi-class topic categorization pipeline built to analyze unstructured news articles and headlines, automatically categorizing them into actionable news categories (such as World, Sports, Business, Sci/Tech, etc.).
+**News Classification System** is an NLP-driven multi-class topic categorization pipeline built to process unstructured news articles and headlines, automatically categorizing them into actionable news categories (such as World, Sports, Business, Sci/Tech, etc.).
 
-Instead of relying on simple keyword lookups, the system establishes a robust end-to-end processing and model pipeline incorporating:
+The system leverages high-performance Python libraries alongside C/Cython underlying optimizations (`numpy`, `scipy`) to process sparse TF-IDF text matrices efficiently:
 
 * **Text Preprocessing & Normalization:** Noise removal, tokenization, stop-word filtering, and text standardization.
 * **Feature Extraction:** Sublinear TF-IDF N-gram Vectorization for capturing contextual n-gram associations.
@@ -32,6 +32,15 @@ Instead of relying on simple keyword lookups, the system establishes a robust en
 * **Evaluation & Benchmarking:** Detailed precision, recall, F1-score, and confusion matrix evaluations across all target classes.
 
 The system transforms raw unstructured text into high-dimensional numerical feature vectors using TF-IDF and outputs high-accuracy topic predictions via modular execution scripts.
+
+---
+
+### Language Breakdown
+
+| Language | Percentage | Primary Usage |
+| :--- | :--- | :--- |
+| **Python** | **95.6%** | Core NLP pipeline, preprocessing, model architecture, and script execution |
+| **Cython / C / C++** | **4.4%** | Accelerated low-level numerical computation routines via `scikit-learn` & `numpy` |
 
 ---
 
