@@ -1,0 +1,1 @@
+echo "venv/`n.venv/`n__pycache__/`n*.pyc`n.ipynb_checkpoints/`n*.pkl`n*.h5`n*.joblib`n*.csv`n*.json`n.env`n.vscode/`n.idea/" > .gitignore
